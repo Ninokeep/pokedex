@@ -35,7 +35,7 @@ export default function Pokemon(props: PokemonProps) {
 	}
 
 	const onChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
-		setSearch(e.target.value);
+		setSearch(e.target.value.toLowerCase().trim());
 	}
 
 	function clearFilter() {
@@ -81,9 +81,11 @@ export default function Pokemon(props: PokemonProps) {
 					return <li key={index + 1} onClick={() => showPokemon(index + 1)}> {pokemon.name}</li>
 				})}
 			</div>
-			{pokemon ?
-				<CardPokemon pokemon={pokemon} loadPokemon={loadPokemon} /> : ''
-			}
+			<div className='container-card'>
+				{pokemon ?
+					<CardPokemon pokemon={pokemon} loadPokemon={loadPokemon} /> : ''
+				}
+			</div>
 		</div>
 	)
 }
