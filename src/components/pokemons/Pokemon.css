@@ -1,0 +1,38 @@
+.container {
+	width: 100%;
+}
+
+.container-list {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container-list>li {
+	padding: 0.5rem;
+	border: 1px solid gray;
+	margin: 0.5rem;
+	border-radius: 5px;
+	width: 200px;
+}
+
+.input {
+	padding: 0.5rem;
+}
+
+.button {
+	padding: 0.5rem;
+	border: none;
+	background-color: #CAC4C4;
+}
+
+.container-input {
+	display: flex;
+	justify-content: start;
+	gap: 1rem;
+}
+
+.textfield-search {
+	flex: 0.4;
+}
