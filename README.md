@@ -22,3 +22,6 @@ The application should now be available at http://localhost:5173 in your browser
 ## License
 
 This application is licensed under the MIT license. You are free to reuse and modify it as you see fit, but please include a link to this repository in your documentation.
+
+
+<img width="1477" alt="pokedex" src="https://user-images.githubusercontent.com/121240813/215348339-221a6003-3676-4904-9608-f8b90417dfde.png">
